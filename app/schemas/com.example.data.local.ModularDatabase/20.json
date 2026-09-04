@@ -1,0 +1,3339 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 20,
+    "identityHash": "764eb99774be30b8fc3ee8abfc3d83ee",
+    "entities": [
+      {
+        "tableName": "abjad_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "asmaulhusna_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "quran_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "naqoosh_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "talismat_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "compatibility_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "azeemat_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "jadool_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "astrology_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "planets_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "manazileqamar_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `dataJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataJson",
+            "columnName": "dataJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "import_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `moduleName` TEXT NOT NULL, `importedRecords` INTEGER NOT NULL, `skippedRecords` INTEGER NOT NULL, `failedRecords` INTEGER NOT NULL, `importDate` INTEGER NOT NULL, `durationMs` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "moduleName",
+            "columnName": "moduleName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "importedRecords",
+            "columnName": "importedRecords",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skippedRecords",
+            "columnName": "skippedRecords",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "failedRecords",
+            "columnName": "failedRecords",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "importDate",
+            "columnName": "importDate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "durationMs",
+            "columnName": "durationMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "knowledge_packages",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `packageId` TEXT NOT NULL, `packageName` TEXT NOT NULL, `version` TEXT NOT NULL, `author` TEXT NOT NULL, `module` TEXT NOT NULL, `description` TEXT NOT NULL, `createdDate` INTEGER NOT NULL, `language` TEXT NOT NULL, `encoding` TEXT NOT NULL, `databaseVersion` INTEGER NOT NULL, `installedDate` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packageId",
+            "columnName": "packageId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packageName",
+            "columnName": "packageName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "version",
+            "columnName": "version",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "author",
+            "columnName": "author",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "module",
+            "columnName": "module",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdDate",
+            "columnName": "createdDate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "language",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encoding",
+            "columnName": "encoding",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "installedDate",
+            "columnName": "installedDate",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "package_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `packageId` TEXT NOT NULL, `action` TEXT NOT NULL, `date` INTEGER NOT NULL, `status` TEXT NOT NULL, `details` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packageId",
+            "columnName": "packageId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "action",
+            "columnName": "action",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "details",
+            "columnName": "details",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "backup_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `backupId` TEXT NOT NULL, `packageId` TEXT NOT NULL, `module` TEXT NOT NULL, `backupDate` INTEGER NOT NULL, `filePath` TEXT NOT NULL, `recordCount` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backupId",
+            "columnName": "backupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packageId",
+            "columnName": "packageId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "module",
+            "columnName": "module",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backupDate",
+            "columnName": "backupDate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "filePath",
+            "columnName": "filePath",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recordCount",
+            "columnName": "recordCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "abjad_systems",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `systemCode` TEXT NOT NULL, `urduName` TEXT NOT NULL, `englishName` TEXT NOT NULL, `description` TEXT NOT NULL, `category` TEXT NOT NULL, `isDefault` INTEGER NOT NULL, `isActive` INTEGER NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "systemCode",
+            "columnName": "systemCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduName",
+            "columnName": "urduName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishName",
+            "columnName": "englishName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isDefault",
+            "columnName": "isDefault",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "isActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_abjad_systems_systemCode",
+            "unique": true,
+            "columnNames": [
+              "systemCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_abjad_systems_systemCode` ON `${TABLE_NAME}` (`systemCode`)"
+          },
+          {
+            "name": "index_abjad_systems_urduName",
+            "unique": false,
+            "columnNames": [
+              "urduName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_systems_urduName` ON `${TABLE_NAME}` (`urduName`)"
+          },
+          {
+            "name": "index_abjad_systems_englishName",
+            "unique": false,
+            "columnNames": [
+              "englishName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_systems_englishName` ON `${TABLE_NAME}` (`englishName`)"
+          }
+        ]
+      },
+      {
+        "tableName": "abjad_letters",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `systemId` INTEGER NOT NULL, `letter` TEXT NOT NULL, `normalizedLetter` TEXT NOT NULL, `unicode` TEXT NOT NULL, `position` INTEGER NOT NULL, FOREIGN KEY(`systemId`) REFERENCES `abjad_systems`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "systemId",
+            "columnName": "systemId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "letter",
+            "columnName": "letter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "normalizedLetter",
+            "columnName": "normalizedLetter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "unicode",
+            "columnName": "unicode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "position",
+            "columnName": "position",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_abjad_letters_systemId",
+            "unique": false,
+            "columnNames": [
+              "systemId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_letters_systemId` ON `${TABLE_NAME}` (`systemId`)"
+          },
+          {
+            "name": "index_abjad_letters_letter",
+            "unique": false,
+            "columnNames": [
+              "letter"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_letters_letter` ON `${TABLE_NAME}` (`letter`)"
+          },
+          {
+            "name": "index_abjad_letters_normalizedLetter",
+            "unique": false,
+            "columnNames": [
+              "normalizedLetter"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_letters_normalizedLetter` ON `${TABLE_NAME}` (`normalizedLetter`)"
+          },
+          {
+            "name": "index_abjad_letters_position",
+            "unique": false,
+            "columnNames": [
+              "position"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_letters_position` ON `${TABLE_NAME}` (`position`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "abjad_systems",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "systemId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "abjad_aliases",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `originalLetter` TEXT NOT NULL, `normalizedLetter` TEXT NOT NULL, `language` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originalLetter",
+            "columnName": "originalLetter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "normalizedLetter",
+            "columnName": "normalizedLetter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "language",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_abjad_aliases_originalLetter",
+            "unique": false,
+            "columnNames": [
+              "originalLetter"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_aliases_originalLetter` ON `${TABLE_NAME}` (`originalLetter`)"
+          },
+          {
+            "name": "index_abjad_aliases_normalizedLetter",
+            "unique": false,
+            "columnNames": [
+              "normalizedLetter"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_abjad_aliases_normalizedLetter` ON `${TABLE_NAME}` (`normalizedLetter`)"
+          }
+        ]
+      },
+      {
+        "tableName": "abjad_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `databaseVersion` INTEGER NOT NULL, `knowledgeVersion` TEXT NOT NULL, `totalSystems` INTEGER NOT NULL, `totalLetters` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "knowledgeVersion",
+            "columnName": "knowledgeVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalSystems",
+            "columnName": "totalSystems",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalLetters",
+            "columnName": "totalLetters",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUpdated",
+            "columnName": "lastUpdated",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "asma_ul_husna",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `number` INTEGER NOT NULL, `arabicName` TEXT NOT NULL, `urduName` TEXT NOT NULL, `englishName` TEXT NOT NULL, `transliteration` TEXT NOT NULL, `meaning` TEXT NOT NULL, `shortDescription` TEXT NOT NULL, `longDescription` TEXT NOT NULL, `abjadValue` INTEGER NOT NULL, `category` TEXT NOT NULL, `references` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "number",
+            "columnName": "number",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "arabicName",
+            "columnName": "arabicName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduName",
+            "columnName": "urduName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishName",
+            "columnName": "englishName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "transliteration",
+            "columnName": "transliteration",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaning",
+            "columnName": "meaning",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shortDescription",
+            "columnName": "shortDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "longDescription",
+            "columnName": "longDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "abjadValue",
+            "columnName": "abjadValue",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "references",
+            "columnName": "references",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_asma_ul_husna_arabicName",
+            "unique": false,
+            "columnNames": [
+              "arabicName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_asma_ul_husna_arabicName` ON `${TABLE_NAME}` (`arabicName`)"
+          },
+          {
+            "name": "index_asma_ul_husna_urduName",
+            "unique": false,
+            "columnNames": [
+              "urduName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_asma_ul_husna_urduName` ON `${TABLE_NAME}` (`urduName`)"
+          },
+          {
+            "name": "index_asma_ul_husna_englishName",
+            "unique": false,
+            "columnNames": [
+              "englishName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_asma_ul_husna_englishName` ON `${TABLE_NAME}` (`englishName`)"
+          },
+          {
+            "name": "index_asma_ul_husna_abjadValue",
+            "unique": false,
+            "columnNames": [
+              "abjadValue"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_asma_ul_husna_abjadValue` ON `${TABLE_NAME}` (`abjadValue`)"
+          }
+        ]
+      },
+      {
+        "tableName": "asma_attributes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `asmaId` INTEGER NOT NULL, `planet` TEXT NOT NULL, `element` TEXT NOT NULL, `colour` TEXT NOT NULL, `incense` TEXT NOT NULL, `bestDay` TEXT NOT NULL, `bestHour` TEXT NOT NULL, `recommendedCount` INTEGER NOT NULL, `recommendedTime` TEXT NOT NULL, FOREIGN KEY(`asmaId`) REFERENCES `asma_ul_husna`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "asmaId",
+            "columnName": "asmaId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "planet",
+            "columnName": "planet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "element",
+            "columnName": "element",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "colour",
+            "columnName": "colour",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "incense",
+            "columnName": "incense",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bestDay",
+            "columnName": "bestDay",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bestHour",
+            "columnName": "bestHour",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recommendedCount",
+            "columnName": "recommendedCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recommendedTime",
+            "columnName": "recommendedTime",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_asma_attributes_asmaId",
+            "unique": false,
+            "columnNames": [
+              "asmaId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_asma_attributes_asmaId` ON `${TABLE_NAME}` (`asmaId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "asma_ul_husna",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "asmaId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "asma_aliases",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `asmaId` INTEGER NOT NULL, `alias` TEXT NOT NULL, `language` TEXT NOT NULL, FOREIGN KEY(`asmaId`) REFERENCES `asma_ul_husna`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "asmaId",
+            "columnName": "asmaId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "alias",
+            "columnName": "alias",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "language",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_asma_aliases_asmaId",
+            "unique": false,
+            "columnNames": [
+              "asmaId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_asma_aliases_asmaId` ON `${TABLE_NAME}` (`asmaId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "asma_ul_husna",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "asmaId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "asma_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `databaseVersion` INTEGER NOT NULL, `knowledgeVersion` TEXT NOT NULL, `totalRecords` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "knowledgeVersion",
+            "columnName": "knowledgeVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalRecords",
+            "columnName": "totalRecords",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUpdated",
+            "columnName": "lastUpdated",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "naqsh_categories",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryCode` TEXT NOT NULL, `urduName` TEXT NOT NULL, `englishName` TEXT NOT NULL, `description` TEXT NOT NULL, `isActive` INTEGER NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryCode",
+            "columnName": "categoryCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduName",
+            "columnName": "urduName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishName",
+            "columnName": "englishName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "isActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_naqsh_categories_categoryCode",
+            "unique": true,
+            "columnNames": [
+              "categoryCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_naqsh_categories_categoryCode` ON `${TABLE_NAME}` (`categoryCode`)"
+          },
+          {
+            "name": "index_naqsh_categories_urduName",
+            "unique": false,
+            "columnNames": [
+              "urduName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_categories_urduName` ON `${TABLE_NAME}` (`urduName`)"
+          },
+          {
+            "name": "index_naqsh_categories_englishName",
+            "unique": false,
+            "columnNames": [
+              "englishName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_categories_englishName` ON `${TABLE_NAME}` (`englishName`)"
+          }
+        ]
+      },
+      {
+        "tableName": "naqsh_templates",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryId` INTEGER NOT NULL, `templateCode` TEXT NOT NULL, `urduTitle` TEXT NOT NULL, `englishTitle` TEXT NOT NULL, `purpose` TEXT NOT NULL, `shape` TEXT NOT NULL, `rows` INTEGER NOT NULL, `columns` INTEGER NOT NULL, `instructions` TEXT NOT NULL, `notes` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL, FOREIGN KEY(`categoryId`) REFERENCES `naqsh_categories`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryId",
+            "columnName": "categoryId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "templateCode",
+            "columnName": "templateCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduTitle",
+            "columnName": "urduTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishTitle",
+            "columnName": "englishTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "purpose",
+            "columnName": "purpose",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shape",
+            "columnName": "shape",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rows",
+            "columnName": "rows",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "columns",
+            "columnName": "columns",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "instructions",
+            "columnName": "instructions",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notes",
+            "columnName": "notes",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_naqsh_templates_categoryId",
+            "unique": false,
+            "columnNames": [
+              "categoryId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_templates_categoryId` ON `${TABLE_NAME}` (`categoryId`)"
+          },
+          {
+            "name": "index_naqsh_templates_templateCode",
+            "unique": true,
+            "columnNames": [
+              "templateCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_naqsh_templates_templateCode` ON `${TABLE_NAME}` (`templateCode`)"
+          },
+          {
+            "name": "index_naqsh_templates_urduTitle",
+            "unique": false,
+            "columnNames": [
+              "urduTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_templates_urduTitle` ON `${TABLE_NAME}` (`urduTitle`)"
+          },
+          {
+            "name": "index_naqsh_templates_englishTitle",
+            "unique": false,
+            "columnNames": [
+              "englishTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_templates_englishTitle` ON `${TABLE_NAME}` (`englishTitle`)"
+          },
+          {
+            "name": "index_naqsh_templates_purpose",
+            "unique": false,
+            "columnNames": [
+              "purpose"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_templates_purpose` ON `${TABLE_NAME}` (`purpose`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "naqsh_categories",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "categoryId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "naqsh_cells",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `templateId` INTEGER NOT NULL, `rowNumber` INTEGER NOT NULL, `columnNumber` INTEGER NOT NULL, `cellOrder` INTEGER NOT NULL, `defaultValue` TEXT NOT NULL, `valueType` TEXT NOT NULL, FOREIGN KEY(`templateId`) REFERENCES `naqsh_templates`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "templateId",
+            "columnName": "templateId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rowNumber",
+            "columnName": "rowNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "columnNumber",
+            "columnName": "columnNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cellOrder",
+            "columnName": "cellOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "defaultValue",
+            "columnName": "defaultValue",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "valueType",
+            "columnName": "valueType",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_naqsh_cells_templateId",
+            "unique": false,
+            "columnNames": [
+              "templateId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_cells_templateId` ON `${TABLE_NAME}` (`templateId`)"
+          },
+          {
+            "name": "index_naqsh_cells_cellOrder",
+            "unique": false,
+            "columnNames": [
+              "cellOrder"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_cells_cellOrder` ON `${TABLE_NAME}` (`cellOrder`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "naqsh_templates",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "templateId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "naqsh_conditions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `templateId` INTEGER NOT NULL, `conditionType` TEXT NOT NULL, `conditionValue` TEXT NOT NULL, `description` TEXT NOT NULL, FOREIGN KEY(`templateId`) REFERENCES `naqsh_templates`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "templateId",
+            "columnName": "templateId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "conditionType",
+            "columnName": "conditionType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "conditionValue",
+            "columnName": "conditionValue",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_naqsh_conditions_templateId",
+            "unique": false,
+            "columnNames": [
+              "templateId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_naqsh_conditions_templateId` ON `${TABLE_NAME}` (`templateId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "naqsh_templates",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "templateId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "naqsh_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `databaseVersion` INTEGER NOT NULL, `knowledgeVersion` TEXT NOT NULL, `totalCategories` INTEGER NOT NULL, `totalTemplates` INTEGER NOT NULL, `totalCells` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "knowledgeVersion",
+            "columnName": "knowledgeVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalCategories",
+            "columnName": "totalCategories",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalTemplates",
+            "columnName": "totalTemplates",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalCells",
+            "columnName": "totalCells",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUpdated",
+            "columnName": "lastUpdated",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "jafr_categories",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryCode` TEXT NOT NULL, `urduName` TEXT NOT NULL, `englishName` TEXT NOT NULL, `description` TEXT NOT NULL, `displayOrder` INTEGER NOT NULL, `isActive` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryCode",
+            "columnName": "categoryCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduName",
+            "columnName": "urduName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishName",
+            "columnName": "englishName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "displayOrder",
+            "columnName": "displayOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "isActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_jafr_categories_categoryCode",
+            "unique": true,
+            "columnNames": [
+              "categoryCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_jafr_categories_categoryCode` ON `${TABLE_NAME}` (`categoryCode`)"
+          },
+          {
+            "name": "index_jafr_categories_urduName",
+            "unique": false,
+            "columnNames": [
+              "urduName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_categories_urduName` ON `${TABLE_NAME}` (`urduName`)"
+          },
+          {
+            "name": "index_jafr_categories_englishName",
+            "unique": false,
+            "columnNames": [
+              "englishName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_categories_englishName` ON `${TABLE_NAME}` (`englishName`)"
+          }
+        ]
+      },
+      {
+        "tableName": "jafr_rules",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryId` INTEGER NOT NULL, `ruleCode` TEXT NOT NULL, `urduTitle` TEXT NOT NULL, `englishTitle` TEXT NOT NULL, `ruleText` TEXT NOT NULL, `notes` TEXT NOT NULL, `references` TEXT NOT NULL, FOREIGN KEY(`categoryId`) REFERENCES `jafr_categories`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryId",
+            "columnName": "categoryId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ruleCode",
+            "columnName": "ruleCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduTitle",
+            "columnName": "urduTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishTitle",
+            "columnName": "englishTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ruleText",
+            "columnName": "ruleText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notes",
+            "columnName": "notes",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "references",
+            "columnName": "references",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_jafr_rules_categoryId",
+            "unique": false,
+            "columnNames": [
+              "categoryId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_rules_categoryId` ON `${TABLE_NAME}` (`categoryId`)"
+          },
+          {
+            "name": "index_jafr_rules_ruleCode",
+            "unique": true,
+            "columnNames": [
+              "ruleCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_jafr_rules_ruleCode` ON `${TABLE_NAME}` (`ruleCode`)"
+          },
+          {
+            "name": "index_jafr_rules_urduTitle",
+            "unique": false,
+            "columnNames": [
+              "urduTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_rules_urduTitle` ON `${TABLE_NAME}` (`urduTitle`)"
+          },
+          {
+            "name": "index_jafr_rules_englishTitle",
+            "unique": false,
+            "columnNames": [
+              "englishTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_rules_englishTitle` ON `${TABLE_NAME}` (`englishTitle`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "jafr_categories",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "categoryId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "jafr_formulas",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `ruleId` INTEGER NOT NULL, `formulaCode` TEXT NOT NULL, `formulaName` TEXT NOT NULL, `formulaDefinition` TEXT NOT NULL, `formulaType` TEXT NOT NULL, FOREIGN KEY(`ruleId`) REFERENCES `jafr_rules`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ruleId",
+            "columnName": "ruleId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "formulaCode",
+            "columnName": "formulaCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "formulaName",
+            "columnName": "formulaName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "formulaDefinition",
+            "columnName": "formulaDefinition",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "formulaType",
+            "columnName": "formulaType",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_jafr_formulas_ruleId",
+            "unique": false,
+            "columnNames": [
+              "ruleId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_formulas_ruleId` ON `${TABLE_NAME}` (`ruleId`)"
+          },
+          {
+            "name": "index_jafr_formulas_formulaCode",
+            "unique": true,
+            "columnNames": [
+              "formulaCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_jafr_formulas_formulaCode` ON `${TABLE_NAME}` (`formulaCode`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "jafr_rules",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "ruleId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "jafr_references",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `referenceTitle` TEXT NOT NULL, `author` TEXT NOT NULL, `bookName` TEXT NOT NULL, `chapter` TEXT NOT NULL, `page` TEXT NOT NULL, `remarks` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "referenceTitle",
+            "columnName": "referenceTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "author",
+            "columnName": "author",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bookName",
+            "columnName": "bookName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter",
+            "columnName": "chapter",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "page",
+            "columnName": "page",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remarks",
+            "columnName": "remarks",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_jafr_references_referenceTitle",
+            "unique": false,
+            "columnNames": [
+              "referenceTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_jafr_references_referenceTitle` ON `${TABLE_NAME}` (`referenceTitle`)"
+          }
+        ]
+      },
+      {
+        "tableName": "jafr_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `databaseVersion` INTEGER NOT NULL, `knowledgeVersion` TEXT NOT NULL, `totalCategories` INTEGER NOT NULL, `totalRules` INTEGER NOT NULL, `totalFormulas` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "knowledgeVersion",
+            "columnName": "knowledgeVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalCategories",
+            "columnName": "totalCategories",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalRules",
+            "columnName": "totalRules",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalFormulas",
+            "columnName": "totalFormulas",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUpdated",
+            "columnName": "lastUpdated",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "talismat_categories",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryCode` TEXT NOT NULL, `urduName` TEXT NOT NULL, `englishName` TEXT NOT NULL, `description` TEXT NOT NULL, `displayOrder` INTEGER NOT NULL, `isActive` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryCode",
+            "columnName": "categoryCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduName",
+            "columnName": "urduName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishName",
+            "columnName": "englishName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "displayOrder",
+            "columnName": "displayOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "isActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_talismat_categories_categoryCode",
+            "unique": true,
+            "columnNames": [
+              "categoryCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_talismat_categories_categoryCode` ON `${TABLE_NAME}` (`categoryCode`)"
+          },
+          {
+            "name": "index_talismat_categories_urduName",
+            "unique": false,
+            "columnNames": [
+              "urduName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_categories_urduName` ON `${TABLE_NAME}` (`urduName`)"
+          },
+          {
+            "name": "index_talismat_categories_englishName",
+            "unique": false,
+            "columnNames": [
+              "englishName"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_categories_englishName` ON `${TABLE_NAME}` (`englishName`)"
+          }
+        ]
+      },
+      {
+        "tableName": "talismat_templates",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryId` INTEGER NOT NULL, `templateCode` TEXT NOT NULL, `urduTitle` TEXT NOT NULL, `englishTitle` TEXT NOT NULL, `purpose` TEXT NOT NULL, `shape` TEXT NOT NULL, `preparationMethod` TEXT NOT NULL, `usageMethod` TEXT NOT NULL, `conditions` TEXT NOT NULL, `notes` TEXT NOT NULL, FOREIGN KEY(`categoryId`) REFERENCES `talismat_categories`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryId",
+            "columnName": "categoryId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "templateCode",
+            "columnName": "templateCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urduTitle",
+            "columnName": "urduTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "englishTitle",
+            "columnName": "englishTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "purpose",
+            "columnName": "purpose",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "shape",
+            "columnName": "shape",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "preparationMethod",
+            "columnName": "preparationMethod",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "usageMethod",
+            "columnName": "usageMethod",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "conditions",
+            "columnName": "conditions",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notes",
+            "columnName": "notes",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_talismat_templates_categoryId",
+            "unique": false,
+            "columnNames": [
+              "categoryId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_templates_categoryId` ON `${TABLE_NAME}` (`categoryId`)"
+          },
+          {
+            "name": "index_talismat_templates_templateCode",
+            "unique": true,
+            "columnNames": [
+              "templateCode"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_talismat_templates_templateCode` ON `${TABLE_NAME}` (`templateCode`)"
+          },
+          {
+            "name": "index_talismat_templates_urduTitle",
+            "unique": false,
+            "columnNames": [
+              "urduTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_templates_urduTitle` ON `${TABLE_NAME}` (`urduTitle`)"
+          },
+          {
+            "name": "index_talismat_templates_englishTitle",
+            "unique": false,
+            "columnNames": [
+              "englishTitle"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_templates_englishTitle` ON `${TABLE_NAME}` (`englishTitle`)"
+          },
+          {
+            "name": "index_talismat_templates_purpose",
+            "unique": false,
+            "columnNames": [
+              "purpose"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_templates_purpose` ON `${TABLE_NAME}` (`purpose`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "talismat_categories",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "categoryId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "talismat_symbols",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `templateId` INTEGER NOT NULL, `symbol` TEXT NOT NULL, `symbolType` TEXT NOT NULL, `sequenceOrder` INTEGER NOT NULL, `meaning` TEXT NOT NULL, FOREIGN KEY(`templateId`) REFERENCES `talismat_templates`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "templateId",
+            "columnName": "templateId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "symbol",
+            "columnName": "symbol",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "symbolType",
+            "columnName": "symbolType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sequenceOrder",
+            "columnName": "sequenceOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaning",
+            "columnName": "meaning",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_talismat_symbols_templateId",
+            "unique": false,
+            "columnNames": [
+              "templateId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_symbols_templateId` ON `${TABLE_NAME}` (`templateId`)"
+          },
+          {
+            "name": "index_talismat_symbols_sequenceOrder",
+            "unique": false,
+            "columnNames": [
+              "sequenceOrder"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_symbols_sequenceOrder` ON `${TABLE_NAME}` (`sequenceOrder`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "talismat_templates",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "templateId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "talismat_conditions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `templateId` INTEGER NOT NULL, `conditionName` TEXT NOT NULL, `conditionValue` TEXT NOT NULL, `description` TEXT NOT NULL, FOREIGN KEY(`templateId`) REFERENCES `talismat_templates`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "templateId",
+            "columnName": "templateId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "conditionName",
+            "columnName": "conditionName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "conditionValue",
+            "columnName": "conditionValue",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_talismat_conditions_templateId",
+            "unique": false,
+            "columnNames": [
+              "templateId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_talismat_conditions_templateId` ON `${TABLE_NAME}` (`templateId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "talismat_templates",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "templateId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "talismat_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `databaseVersion` INTEGER NOT NULL, `knowledgeVersion` TEXT NOT NULL, `totalCategories` INTEGER NOT NULL, `totalTemplates` INTEGER NOT NULL, `totalSymbols` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "knowledgeVersion",
+            "columnName": "knowledgeVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalCategories",
+            "columnName": "totalCategories",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalTemplates",
+            "columnName": "totalTemplates",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalSymbols",
+            "columnName": "totalSymbols",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUpdated",
+            "columnName": "lastUpdated",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_abjad_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `originalText` TEXT NOT NULL, `normalizedText` TEXT NOT NULL, `systemId` INTEGER NOT NULL, `finalTotal` INTEGER NOT NULL, `characterCount` INTEGER NOT NULL, `letterCount` INTEGER NOT NULL, `isFavorite` INTEGER NOT NULL, `calculationTimeMs` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originalText",
+            "columnName": "originalText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "normalizedText",
+            "columnName": "normalizedText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "systemId",
+            "columnName": "systemId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "finalTotal",
+            "columnName": "finalTotal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "characterCount",
+            "columnName": "characterCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "letterCount",
+            "columnName": "letterCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationTimeMs",
+            "columnName": "calculationTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_takseer_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `inputPhrase` TEXT NOT NULL, `takseerType` TEXT NOT NULL, `finalResult` TEXT NOT NULL, `linesCount` INTEGER NOT NULL, `isFavorite` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "inputPhrase",
+            "columnName": "inputPhrase",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "takseerType",
+            "columnName": "takseerType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "finalResult",
+            "columnName": "finalResult",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "linesCount",
+            "columnName": "linesCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_jafr_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `inputPhrase` TEXT NOT NULL, `jafrType` TEXT NOT NULL, `finalResult` TEXT NOT NULL, `additionalInfo` TEXT NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "inputPhrase",
+            "columnName": "inputPhrase",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "jafrType",
+            "columnName": "jafrType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "finalResult",
+            "columnName": "finalResult",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "additionalInfo",
+            "columnName": "additionalInfo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_spiritual_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `input1` TEXT NOT NULL, `input2` TEXT NOT NULL, `calculationType` TEXT NOT NULL, `finalResult` TEXT NOT NULL, `additionalInfo` TEXT NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "input1",
+            "columnName": "input1",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "input2",
+            "columnName": "input2",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationType",
+            "columnName": "calculationType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "finalResult",
+            "columnName": "finalResult",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "additionalInfo",
+            "columnName": "additionalInfo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_ismazam_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `personName` TEXT NOT NULL, `mothersName` TEXT NOT NULL, `systemId` INTEGER NOT NULL, `abjadTotal` INTEGER NOT NULL, `matchedAsmaCsv` TEXT NOT NULL, `isFavorite` INTEGER NOT NULL, `calculationTimeMs` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "personName",
+            "columnName": "personName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mothersName",
+            "columnName": "mothersName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "systemId",
+            "columnName": "systemId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "abjadTotal",
+            "columnName": "abjadTotal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "matchedAsmaCsv",
+            "columnName": "matchedAsmaCsv",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationTimeMs",
+            "columnName": "calculationTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_tashkhees_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `mothersName` TEXT NOT NULL, `systemId` INTEGER NOT NULL, `summary` TEXT NOT NULL, `isFavorite` INTEGER NOT NULL, `calculationTimeMs` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mothersName",
+            "columnName": "mothersName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "systemId",
+            "columnName": "systemId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "summary",
+            "columnName": "summary",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationTimeMs",
+            "columnName": "calculationTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_talismat_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `mothersName` TEXT NOT NULL, `selectedCategory` TEXT NOT NULL, `selectedTemplate` TEXT NOT NULL, `generatedTalismDetails` TEXT NOT NULL, `isFavorite` INTEGER NOT NULL, `calculationTimeMs` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mothersName",
+            "columnName": "mothersName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "selectedCategory",
+            "columnName": "selectedCategory",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "selectedTemplate",
+            "columnName": "selectedTemplate",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "generatedTalismDetails",
+            "columnName": "generatedTalismDetails",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationTimeMs",
+            "columnName": "calculationTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_naqoosh_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `mothersName` TEXT NOT NULL, `selectedCategory` TEXT NOT NULL, `selectedTemplate` TEXT NOT NULL, `generatedNaqshDetails` TEXT NOT NULL, `gridSize` INTEGER NOT NULL, `isFavorite` INTEGER NOT NULL, `calculationTimeMs` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mothersName",
+            "columnName": "mothersName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "selectedCategory",
+            "columnName": "selectedCategory",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "selectedTemplate",
+            "columnName": "selectedTemplate",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "generatedNaqshDetails",
+            "columnName": "generatedNaqshDetails",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "gridSize",
+            "columnName": "gridSize",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationTimeMs",
+            "columnName": "calculationTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_compatibility_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `calculationType` TEXT NOT NULL, `input1` TEXT NOT NULL, `input2` TEXT NOT NULL, `percentage` INTEGER NOT NULL, `resultSummary` TEXT NOT NULL, `positivePoints` TEXT NOT NULL, `negativePoints` TEXT NOT NULL, `recommendations` TEXT NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationType",
+            "columnName": "calculationType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "input1",
+            "columnName": "input1",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "input2",
+            "columnName": "input2",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "percentage",
+            "columnName": "percentage",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultSummary",
+            "columnName": "resultSummary",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "positivePoints",
+            "columnName": "positivePoints",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "negativePoints",
+            "columnName": "negativePoints",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recommendations",
+            "columnName": "recommendations",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "professional_ilmuladad_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `method` TEXT NOT NULL, `name` TEXT NOT NULL, `mothersName` TEXT NOT NULL, `dob` TEXT NOT NULL, `rootNumber` INTEGER NOT NULL, `destinyNumber` INTEGER NOT NULL, `reportText` TEXT NOT NULL, `isFavorite` INTEGER NOT NULL, `calculationTimeMs` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "method",
+            "columnName": "method",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mothersName",
+            "columnName": "mothersName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dob",
+            "columnName": "dob",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rootNumber",
+            "columnName": "rootNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "destinyNumber",
+            "columnName": "destinyNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reportText",
+            "columnName": "reportText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculationTimeMs",
+            "columnName": "calculationTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "ilmuladad_numbers",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `number` INTEGER NOT NULL, `numberType` TEXT NOT NULL, `planet` TEXT NOT NULL, `element` TEXT NOT NULL, `luckyColors` TEXT NOT NULL, `luckyGemstone` TEXT NOT NULL, `friendlyNumbers` TEXT NOT NULL, `enemyNumbers` TEXT NOT NULL, `traits` TEXT NOT NULL, `careers` TEXT NOT NULL, `spirituals` TEXT NOT NULL, `metadata` TEXT NOT NULL, `createdAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "number",
+            "columnName": "number",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numberType",
+            "columnName": "numberType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "planet",
+            "columnName": "planet",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "element",
+            "columnName": "element",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "luckyColors",
+            "columnName": "luckyColors",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "luckyGemstone",
+            "columnName": "luckyGemstone",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "friendlyNumbers",
+            "columnName": "friendlyNumbers",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enemyNumbers",
+            "columnName": "enemyNumbers",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "traits",
+            "columnName": "traits",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "careers",
+            "columnName": "careers",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "spirituals",
+            "columnName": "spirituals",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "metadata",
+            "columnName": "metadata",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_ilmuladad_numbers_number_numberType",
+            "unique": true,
+            "columnNames": [
+              "number",
+              "numberType"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_ilmuladad_numbers_number_numberType` ON `${TABLE_NAME}` (`number`, `numberType`)"
+          }
+        ]
+      },
+      {
+        "tableName": "ilmuladad_metadata",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `databaseVersion` INTEGER NOT NULL, `knowledgeVersion` TEXT NOT NULL, `totalNumbers` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "databaseVersion",
+            "columnName": "databaseVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "knowledgeVersion",
+            "columnName": "knowledgeVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalNumbers",
+            "columnName": "totalNumbers",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUpdated",
+            "columnName": "lastUpdated",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '764eb99774be30b8fc3ee8abfc3d83ee')"
+    ]
+  }
+}
